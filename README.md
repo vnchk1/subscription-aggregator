@@ -96,11 +96,3 @@ docker-compose down
 ```bash
 docker-compose down --rmi all --volumes --remove-orphans
 ```
-
-## Мониторинг
-
-- **Health check**: `http://localhost:8080/health`
-- **Swagger UI**: `http://localhost:8080/swagger/index.html`
-- **База данных**: `localhost:5432` (PostgreSQL)
-
-### *Примечание для заказчика: .env файл не внесён в .gitignore, так как по ТЗ вся конфигурация должна храниться в нём*.
